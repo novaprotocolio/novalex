@@ -38,7 +38,7 @@ type Proposal interface {
 
 	DecodeRLP(s *rlp.Stream) error
 
-	String() string
+	// String() string
 }
 
 type Request struct {
